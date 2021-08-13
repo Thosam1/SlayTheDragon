@@ -2,6 +2,15 @@
 
 a little whac-a-mole game where you have to click on the drake in order to kill him.
 
+Methods learned :
+  • querySelector()
+  • addEventListener()
+  • onclick
+  • classList.contains()
+  • classList.add()
+  • For loops
+  • Arrow functions
+
 ## Usage
 run the html file
 
