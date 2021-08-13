@@ -49,7 +49,13 @@ function countDown() {
     if(currentTime == 0) {
         clearInterval(countDownTimerId)
         clearInterval(timerId)
-        alert("Time's Up ! Your final score is : " + result)
+
+        if(result <= 60){
+            alert("Time's Up ! Your final score is : " + result + " You couldn't slay the drake, try again !")
+        } else {
+            alert("Time's Up ! Your final score is : " + result + " Good job ! You slayed the drake, now the people can live in peace !")
+        }
+
     }
 }
 
